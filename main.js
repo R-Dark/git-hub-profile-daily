@@ -37,3 +37,23 @@ function myFunction() {
 
 
 }
+
+// es6 way learn to use this
+//
+// let ulNode = document.querySelector("ul")
+// console.log(ulNode)
+//
+// let request = new XMLHttpRequest()
+// request.open('GET', 'https://api.github.com/users/R-Dark')
+// request.addEventListener("load", githubData)
+// request.send()
+//
+// function githubData() {
+//   let data = JSON.parse(this.responseText)
+//   let dataString = `
+//   <li>${data.name}</li>
+//   <li>${data.email}</li>
+//   `
+//
+//   ulNode.innerHTML = dataString
+// }
